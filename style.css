@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#form-agregar-alumno {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#form-agregar-alumno input {
+    width: 30%;
+    padding: 8px;
+    margin: 5px 5px 5px 0;
+    font-size: 16px;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px 5px 5px 0;
+    font-size: 16px;
+}
+
+#btn-agregar-alumno {
+    padding: 16px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-agregar-alumno:hover {
+    background-color: #0056b3;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#form-asistencia {
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#form-asistencia label {
+    margin-right: 12px;
+}
+
+#fecha {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#fecha + button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px; /* Borde redondeado */
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#fecha + button:hover {
+    background-color: #e0e0e0;
+}
+
+.resumen-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.resumen-table th, .resumen-table td {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+
+.resumen-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.resumen-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.resumen-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+div#resumen-general {
+    margin-top: 30px;
+}
